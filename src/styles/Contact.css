@@ -1,0 +1,73 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Container for the contact section */
+.contact-container {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+    background-color: #f9f9f9; /* Light background color */
+    text-align: center;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle shadow to separate from content */
+}
+
+/* Title styling */
+.contact-title {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+    padding-bottom: 24px;
+    padding-top: 8px;
+}
+
+/* Info container */
+.contact-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Space between contact links */
+    padding-bottom: 16px;
+}
+
+/* Individual contact links */
+.contact-link {
+    font-size: 1.2em;
+    color: #555;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.contact-link:hover {
+    color: #0073b1; /* LinkedIn blue color */
+}
+
+/* Icon styling */
+.contact-link i {
+    margin-right: 8px;
+    font-size: 1.5em;
+}
+
+/* Responsive design adjustments */
+@media (max-width: 768px) {
+    .contact-title {
+        font-size: 1.2em;
+    }
+
+    .contact-link {
+        font-size: 1em;
+    }
+
+    .contact-link i {
+        font-size: 1.2em;
+    }
+}
